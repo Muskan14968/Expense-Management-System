@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Consolas, sans-serif;
+}
+
+.about-div, 
+.contact-div {
+    width: 55vmax;
+    margin: 25vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.about-div1, 
+.contact-div1 {
+    font-size: 5vmin;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3vmin;
+    text-align: center;
+}
+
+.about-div2, 
+.contact-div2 {
+    font-size: 2.5vmin;
+    font-weight: bold;
+    margin-bottom: 3vmin;
+    line-height: 4vmin;
+    text-align: justify;
+}
